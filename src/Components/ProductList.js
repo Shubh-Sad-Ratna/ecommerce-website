@@ -1,6 +1,7 @@
 import React from 'react';
 import Product from './Product';
 
+// Hardcoded products array
 const productsArr = [
   {
     title: 'Colors',
@@ -27,7 +28,7 @@ const productsArr = [
 const ProductList = () => {
   return (
     <div>
-      <h1>Our Products</h1>
+      <h2>Our Products</h2>
       <div className="product-container">
         {productsArr.map((product, index) => (
           <Product 
